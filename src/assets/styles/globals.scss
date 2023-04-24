@@ -1,0 +1,18 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  color: $color_black;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1370px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+}

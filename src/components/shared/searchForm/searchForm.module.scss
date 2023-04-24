@@ -1,0 +1,21 @@
+@import "../../../assets/styles/variables";
+
+.form {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  & > button {
+    position: absolute;
+    right: 14px;
+  }
+
+  & > input {
+    width: 100%;
+    padding-right: 80px;
+  }
+}
+
+.searchImg {
+  padding: 13px;
+}

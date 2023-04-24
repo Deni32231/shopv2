@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 21px;
+  column-gap: 21px;
+
+  @media (max-width: 1244px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 990px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
